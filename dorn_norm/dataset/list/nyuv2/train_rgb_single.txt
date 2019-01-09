@@ -1,0 +1,1 @@
+/data/liuyx/nyuv2/nyu_depth_v2_train_fill_every10/office_0003/00005_rgb.png
