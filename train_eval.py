@@ -250,8 +250,6 @@ def main():
         optimizer.zero_grad()
         lr = adjust_learning_rate(optimizer, i_iter)
         preds = model(images)
-        print (preds.shape)
-        print(labels.shape)    
         loss = criterion(preds,labels, ignore_label=0)
         loss.backward()
         optimizer.step()
